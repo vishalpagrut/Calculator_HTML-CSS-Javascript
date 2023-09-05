@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background: linear-gradient(20deg,#0a0a0a,#3a4452);*/
+
+   /* background: linear-gradient(20deg, rgb(0, 10, 10), rgb(31, 30, 30)); */
+   /* background-color: #51F4DB ; */
+   background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE2OTM3NjU2MDN8MA&ixlib=rb-4.0.3");
+   
+}
+.calculator{
+    border: 1px solid rgb(246, 239, 45) ;
+    padding: 2px;
+    border-radius: 26px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    background-color: #a82121b5   ;
+    /* background-color: #dc1e1e97   ; */
+    /* background-color: #16ee07a9   ; */
+}
+input{
+    width: 320px;
+    border: 1px;
+    padding: 14px;
+    margin: 20px;
+    /* background: transparent; */
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 10px;
+    /* color: #ffffff; */
+    color: black;
+    border: 1px solid black ;
+}
+input::placeholder{
+    color: #ffffff;
+}
+button
+{
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgba(231, 235, 15, 0.344);
+}
+.opr{
+    background-color: #A9EB89 ; 
+}
+.equalbutton{
+    background-color: burlywood;
+}
